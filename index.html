@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тестовая форма — VK Pixel</title>
+
+
+<!-- VK Pixel / Top.Mail.Ru base code -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "YOUR_TOP_MAIL_RU_ID", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+if (d.getElementById(id)) return;
+var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+ts.src = "https://top-fwz1.mail.ru/js/code.js";
+var f = function () { var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s); };
+if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "tmr-code");
+</script>
+<noscript><div><img src="https://top-fwz1.mail.ru/counter?id=YOUR_TOP_MAIL_RU_ID;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+
+
+<style>
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 2rem; background: #f9fafb; }
+.card { max-width: 480px; margin: 10vh auto 0; padding: 2rem; background: white; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+h1 { margin-top: 0; text-align: center; }
+label { display:block; margin-top:1rem; font-weight:500; }
+input { width:100%; padding:.75rem; border-radius:.5rem; border:1px solid #cbd5e1; margin-top:.25rem; }
+button { width:100%; margin-top:1.5rem; padding:.75rem; border:none; border-radius:.5rem; background:#2563eb; color:white; font-size:1rem; cursor:pointer; }
+button:hover { background:#1d4ed8; }
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Оставьте заявку</h1>
+<form action="thanks.html" method="get">
+<label>Имя</label>
+<input name="name" required placeholder="Ваше имя">
+<label>Телефон</label>
+<input name="phone" required placeholder="+7...">
+<label>Email</label>
+<input name="email" type="email" placeholder="you@example.com">
+<button type="submit">Отправить</button>
+</form>
+</div>
+</body>
+</html>
